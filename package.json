@@ -2,10 +2,12 @@
   "name": "reusable-components",
   "version": "1.0.0",
   "description": "How to develop reusable components with babel and rollup.js",
-  "main": "src/main.js",
+  "main": "dist/main.js",
   "dependencies": {},
   "devDependencies": {
-    "babel-preset-env": "^1.7.0",
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
     "rollup-plugin-babel": "^4.0.3"
   },
   "scripts": {
