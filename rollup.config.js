@@ -6,7 +6,7 @@ export default [
     output: {
       name: "reusable",
       file: "dist/main.js",
-      format: "iife"
+      format: "es"
     },
     external: ["react"],
     plugins: [

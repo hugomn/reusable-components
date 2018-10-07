@@ -1,12 +1,7 @@
-var reusable = (function (React) {
-  'use strict';
+import React from 'react';
 
-  React = React && React.hasOwnProperty('default') ? React['default'] : React;
+function Header () {
+  return React.createElement("h1", null, "Hello, React Day!");
+}
 
-  function Header () {
-    return React.createElement("h1", null, "Hello, React Day!");
-  }
-
-  return Header;
-
-}(React));
+export default Header;
