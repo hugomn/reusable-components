@@ -1,0 +1,30 @@
+{
+  "name": "reusable-components",
+  "version": "1.0.0",
+  "description": "How to develop reusable components with babel and rollup.js",
+  "main": "src/main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "rollup-plugin-babel": "^4.0.3"
+  },
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugomn/reusable-components.git"
+  },
+  "keywords": [
+    "Rollup.js",
+    "Babel",
+    "React",
+    "Components"
+  ],
+  "author": "Hugo Nogueira <hugomn@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugomn/reusable-components/issues"
+  },
+  "homepage": "https://github.com/hugomn/reusable-components#readme"
+}
