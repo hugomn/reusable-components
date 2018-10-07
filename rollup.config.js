@@ -1,15 +1,14 @@
 import babel from "rollup-plugin-babel";
-import pkg from "../package.json";
 
 export default [
   {
     input: "src/main.js",
     output: {
-      name: "reusable-components",
-      file: pkg.main,
+      name: "reusable",
+      file: "dist/main.js",
       format: "iife"
     },
-    external: ["react", "prop-types"],
+    external: ["react"],
     plugins: [
       babel({
         exclude: "node_modules/**"

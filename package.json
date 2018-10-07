@@ -8,6 +8,7 @@
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
     "rollup-plugin-babel": "^4.0.3"
   },
   "scripts": {
