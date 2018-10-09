@@ -1,7 +1,11 @@
-import React from 'react';
+'use strict';
 
-function Header () {
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var React = _interopDefault(require('react'));
+
+var Header = function Header() {
   return React.createElement("h1", null, "Hello, React Day!");
-}
+};
 
-export default Header;
+module.exports = Header;

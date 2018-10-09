@@ -1,5 +1,7 @@
 import React from "react";
 
-export default function() {
+const Header = function() {
   return <h1>Hello, React Day!</h1>;
-}
+};
+
+export default Header;

@@ -1,3 +1,4 @@
+// rollup.config.js
 import babel from "rollup-plugin-babel";
 
 export default [
@@ -6,7 +7,7 @@ export default [
     output: {
       name: "reusable",
       file: "dist/main.js",
-      format: "es"
+      format: "cjs"
     },
     external: ["react"],
     plugins: [
