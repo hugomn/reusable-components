@@ -1,6 +1,6 @@
 {
   "name": "@hugomn/reusable-components",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "How to develop reusable components with babel and rollup.js",
   "main": "dist/main.js",
   "dependencies": {
