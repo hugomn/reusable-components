@@ -1,8 +1,8 @@
-import babel from "rollup-plugin-babel";
+import typescript from "rollup-plugin-typescript";
 
 export default [
   {
-    input: "src/main.js",
+    input: "src/main.ts",
     output: {
       name: "reusable",
       file: "dist/main.js",
@@ -10,10 +10,6 @@ export default [
       name: "ReactUi"
     },
     external: ["react"],
-    plugins: [
-      babel({
-        exclude: "node_modules/**"
-      })
-    ]
+    plugins: [typescript()]
   }
 ];
