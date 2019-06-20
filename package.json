@@ -4,22 +4,23 @@
   "description": "How to develop reusable components with babel and rollup.js",
   "main": "dist/main.js",
   "dependencies": {
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
   },
   "devDependencies": {
-    "@babel/cli": "^7.1.2",
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
+    "@babel/cli": "7.4.4",
+    "@babel/core": "7.4.5",
+    "@babel/preset-env": "7.4.5",
     "@babel/preset-react": "^7.0.0",
-    "rollup-plugin-babel": "^4.0.3"
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "10.0.0"
   },
   "peerDependencies": {
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
   },
   "scripts": {
-    "test": "yarn test"
+    "test": "npm test"
   },
   "repository": {
     "type": "git",
