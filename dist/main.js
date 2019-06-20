@@ -4,8 +4,8 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 
 var React = _interopDefault(require('react'));
 
-var Header = function Header() {
-  return React.createElement("h1", null, "Hello, world!");
+var Button = function () {
+    return React.createElement("button", null, "Hello, world!");
 };
 
-module.exports = Header;
+module.exports = Button;
